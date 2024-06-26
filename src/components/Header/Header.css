@@ -1,0 +1,82 @@
+.navContainer{
+    display: flex;
+    width: 98vw;
+    max-width: 99vw;
+    background-color: rgba(72, 80, 87, 0.944);
+    color: white;
+    height: 9vh;
+}
+
+.navitems{
+    width: 33%;
+    margin: 1rem;
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    
+
+}
+
+.navitem2{
+    text-align: center;
+    display: flex;
+    justify-self: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 1.2rem;
+    color: aliceblue;
+    height: 100%;
+    width: 50vw;
+    max-width: 50vw;
+    padding-left: 7rem;
+    font-family: cursive;
+}
+
+.navlink{
+    float:right;
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    
+    border-radius: 100px;
+    background-color: brown;
+    
+}
+.navitem3{
+    margin-top: 1.2rem;
+}
+
+.navlink:hover{
+    background-color: rgb(128, 128, 128);
+    color: black;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+.navlink_lgsu{
+    float:right;
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    
+    border-radius: 100px;
+    /* background-color:rgb(223, 147, 48); */
+    /* background-color:rgba(179, 130, 95, 0.81); */
+    background-color:rgb(89, 158, 160);
+    margin-left: 0.5rem;
+}
+
+.navlink_lgsu:hover{
+    background-color: lightseagreen;
+    color: black;
+}
+
+.navbar-toggler-icon i{
+    color: white;
+    
+}
+
+@media(max-width:998px) {
+    .navitem2{
+        padding-left: 0;
+    }
+}

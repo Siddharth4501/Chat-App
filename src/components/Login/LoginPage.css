@@ -1,0 +1,131 @@
+.LoginInFormContainer{
+    background-color: cadetblue;
+    
+    max-width: 450px;
+    padding: 1rem 3rem 3rem 3rem;
+    transform: translate(0%,40%);
+    border-radius: 20px;
+    box-shadow: 0.2rem 0.4rem 0.6rem black;
+    
+}
+.signinpg{
+    background-color: rgba(95, 158, 160, 0.192);
+    height:94vh;
+    width: 100vw;
+}
+
+.form input{
+    height: 30px;
+    margin-top: 0.2rem;
+    width: 15rem;
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+.form label{
+    font-size: 1.5rem;
+}
+
+
+
+.form div{
+    display: flex;
+}
+
+.form div .cmn_item1{
+    width: 30%;
+}
+.form div .cmn_item2{
+    width: 70%;
+}
+.buttons{
+    max-width: 100%;
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.submitbtn{
+    
+    max-width: 100%;
+    justify-content: center;
+}
+.submitbtn button{
+    padding: 0.2rem 1.2rem 0.2rem 1.2rem;
+    font-size: 1.2rem;
+    border-radius: 70px;
+    background-color: rgba(222, 184, 135, 0.474);
+}
+.signupbtn{
+    width: 100%;
+}
+
+.signupbtnlink{
+    text-decoration: none;
+    color:crimson
+}
+.preloader{
+    height: 93vh;
+    width: 100vw;
+    
+    background: url('D:\Real Time Chat App\ChatApp\images\chatapp-loader.gif');
+    background-position: center;
+    
+    background-repeat: no-repeat;
+}
+
+@media(max-width:494px) {
+    .submitbtn button{
+        width: 8rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+    }
+    .form div{
+        flex-direction: column;
+    }
+    .form div .cmn_item1{
+        width: 100%;
+        text-align: start;
+        
+    }
+    .form div .cmn_item2{
+        width: 100%;
+        
+    }
+    .form input{
+        width: 100%;
+        height: 40px;
+    }
+    .LoginInFormContainer{
+        max-width: 400px;
+    }
+}
+
+@media(max-width:414px) {
+    
+    .LoginInFormContainer{
+        max-width: 350px;
+    }
+}
+
+@media(max-width:390px) {
+   
+    .LoginInFormContainer{
+        max-width: 325px;
+        transform: translate(0%,30%);
+    }
+}
+
+@media(max-width:350px) {
+    
+    .LoginInFormContainer{
+        max-width: 275px;
+        padding: 0 0.5rem 0 0.5rem;
+        
+    }
+    
+}
